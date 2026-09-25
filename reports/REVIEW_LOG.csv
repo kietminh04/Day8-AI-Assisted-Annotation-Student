@@ -1,0 +1,11 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0182.jpg,chiếc SUV màu bạc bên phải,edited,Khung AI vẽ quá rộng tràn sang làn trống bên trái; sửa co lại sát thân xe theo GUIDELINE_LABEL.md
+1,frame_0182.jpg,xe sedan màu xám ở làn phải dưới cùng,added,AI bỏ sót xe rõ ràng đang di chuyển ở làn ngoài cùng bên phải; thêm khung theo GUIDELINE_LABEL.md
+1,frame_0182.jpg,xe tối mờ sát mép dưới ảnh,added,AI bỏ sót xe có thân tối chìm vào nền đêm; thêm khung ôm phần thân xe nhìn thấy theo GUIDELINE_LABEL.md
+1,frame_0182.jpg,xe con ở làn giữa gần đèn pha sáng,accepted,AI nhận diện đúng xe và khung đã ôm sát thân xe; giữ nguyên nhãn theo GUIDELINE_LABEL.md
+1,frame_0099.jpg,xe sedan làn giữa dưới cùng,added,AI bỏ sót xe ngược chiều có đèn pha chiếu sáng mặt đường; thêm khung ôm sát đầu và thân xe theo GUIDELINE_LABEL.md
+1,frame_0099.jpg,khung xe ở làn trái gần,edited,Khung AI ôm cả vệt đèn pha rọi dài trên mặt đường; co đáy khung lên sát cản trước xe theo GUIDELINE_LABEL.md
+1,frame_0331.jpg,vệt đèn phản chiếu giữa hai xe ở làn trái,deleted,AI nhận nhầm vệt đèn pha phản chiếu trên mặt đường thành xe; xóa khung giả theo GUIDELINE_LABEL.md
+1,frame_0331.jpg,khung trùng lặp ở làn phải phía xa,deleted,Hai khung bao đè lên cùng một chiếc xe; xóa khung thừa giữ lại một khung chuẩn theo GUIDELINE_LABEL.md
+1,frame_0392.jpg,hai xe buýt màu trắng đỏ phía xa làn phải,added,AI bỏ sót xe buýt; thêm khung gán nhãn car cho xe từ 4 bánh trở lên theo GUIDELINE_LABEL.md
+1,frame_0392.jpg,xe SUV màu đen ở làn giữa phía dưới,added,AI bỏ sót xe di chuyển ngược chiều; thêm khung ôm sát thân xe theo GUIDELINE_LABEL.md
